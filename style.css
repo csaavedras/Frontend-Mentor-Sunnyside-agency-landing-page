@@ -1,0 +1,34 @@
+:root {
+
+    /* Primary */
+
+--Soft_red: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+/* graphic design text */
+--Dark_desaturated_cyan: hsl(167, 40%, 24%);
+/* photography text */
+--Dark_blue:hsl(198, 62%, 26%);
+/* footer  */
+--Dark_moderate_cyan:hsl(168, 34%, 41%);
+
+/* Neutral */
+--Very_dark_desaturated_blue: hsl(212, 27%, 19%);
+--Very_dark_grayish_blue: hsl(213, 9%, 39%);
+--Dark_grayish_blue: hsl(232, 10%, 55%);
+--Grayish_blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+
+}
+/* 
+Font Family
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Quicksand', sans-serif; */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
