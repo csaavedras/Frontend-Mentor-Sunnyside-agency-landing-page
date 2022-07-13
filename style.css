@@ -31,4 +31,54 @@ html {
 
 body {
   font-family: 'Barlow', sans-serif;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #3ebfff;
+}
+.nav-item {
+  font-size: 1rem;
+}
+main {
+  background-color: #66BDFA;
+}
+.main_container  {
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  height: 50vh;
+}
+.h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+}
+p {
+  color: var(--Dark_blue);
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.container_content {
+  height: 40vh;
+}
+.image_hero {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.image_transform {
+  background-image: url(./images/desktop/image-transform.jpg);
+}
+.image_stand_out {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+}
+.justify-content-center {
+  justify-content: center;
 }
