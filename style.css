@@ -39,6 +39,13 @@ nav {
 .nav-item {
   font-size: 1rem;
 }
+.btn {
+  border-radius: 50px;
+}
+.cta {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
 main {
   background-color: #66BDFA;
 }
@@ -64,6 +71,14 @@ p {
   font-weight: 600;
   font-size: 0.8rem;
   font-family: 'Quicksand', sans-serif;
+  line-height: 1.5rem;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  color: black;
+  font-size: 0.8rem;
 }
 .container_content {
   height: 40vh;
@@ -81,4 +96,16 @@ p {
 }
 .justify-content-center {
   justify-content: center;
+}
+.fruit_content  {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.image_graphic {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+}
+.image_orange2 {
+  background-image: url(./images/desktop/image-photography.jpg);
+}
 }
