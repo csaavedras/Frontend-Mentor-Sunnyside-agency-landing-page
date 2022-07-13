@@ -83,6 +83,7 @@ a {
 .container_content {
   height: 40vh;
 }
+/* MARK: Hero Section */
 .image_hero {
   background-repeat: no-repeat;
   background-position: center;
@@ -108,4 +109,23 @@ a {
 .image_orange2 {
   background-image: url(./images/desktop/image-photography.jpg);
 }
+.protography_text {
+  color: var(--Dark_desaturated_cyan)
+}
+
+/* MARK: Testimonials Section */
+.testimonials_section h3 {
+  font-family: 'Fraunces', serif;
+  letter-spacing: 0.30em;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--Dark_moderate_cyan);
+}
+
+.circle_shape_img img{
+  width: 90px;
+  border-radius: 50%;
+}
+.testiomonials {
+  height: 40vh;
 }
